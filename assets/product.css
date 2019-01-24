@@ -1,0 +1,89 @@
+.site-header.container {
+  max-width: 80%;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  color: white !important;
+  background-color: rgba(7,10,15,.95);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #fff;
+  font-weight: 500;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+address ul { list-style: none; padding: 0 !important; }
+
+
+.page-wrapper {/* padding: 25px; */padding-top: 25px;}
+
+.svg-logo {display: block !important;margin: 0 auto;max-height: 120px;}
+.bg-telecom { color: #FFFFFF; background: #0789B8; } 
+.bg-sige { color: #FFFFFF; background: #19308A; } 
+.bg-divulg { color: #FFFFFF; background: #B8D15D; } 
+.bg-folha { color: #FFFFFF; background: red; } 
+
+
+.portfolio-item.telecom 	{/* margin: 0px 10px 10px 0px; */border-left: 3px solid;border-top: 3px solid;border-color: #008cbd;}
+.portfolio-item.sige 		{/* margin: 0px 10px 10px 0px; */border-top: 3px solid;border-right: 3px solid;border-color: #19308A;}
+.portfolio-item.divulg 		{/* margin: 0px 10px 10px 0px; */border-bottom: 3px solid;border-left: 3px solid;border-color: #b7d15e;}
+.portfolio-item.folha 		{/* margin: 0px 10px 10px 0px; */border-right: 3px solid;border-bottom: 3px solid;border-color: #ec3337;}
+
+.marcas-menu {
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    z-index: 1020;	
+}
+.marcas-menu_fix {
+	width: 20%;
+	margin: 0 auto;
+	position: fixed;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    z-index: 1020;	
+}
+.marcas-item img {width: 110px;}
+
+.logo-header-line {
+	width: 100%;
+	padding: 30px;
+	border-bottom: 5px solid #0789B8;
+}
+
+#SIGE { color: #19308A; }
+
+#wrapper { margin-top: 106px; }
